@@ -1,0 +1,120 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    margin: 2%;
+}
+.sectionA{
+    width: 10%;
+    margin-right: 2%;
+    height: 100%;
+    background-color: rgb(65, 59, 114);
+}
+.uppericon{
+    position: absolute;
+    /* direction: ltr; */
+   
+}
+.doubleright{
+    position: absolute;
+    /* direction: rtl; */
+}
+.sectionB{
+    width: 88%;
+    height: 100%;
+    /* background-color: gray; */
+}
+.tools{
+    background-color: white;
+    border-radius: 4px;
+    margin: 14% 12%;
+    height: 6rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list-selected-icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 19%;
+}
+.list-icon-title {
+    margin-top: 22%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.callout-icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.callout-wrapper {
+    background-color: red;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    width:fit-content;
+    padding: 10px;
+    height: 85px;
+    border-radius: 4px;
+    left: 8rem;
+    top: -10rem;
+    box-sizing: border-box;
+   
+
+    
+   
+}
+
+
+
+
+.callout-item {
+    height: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 14px;
+    width: 5rem;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: px;
+    margin-bottom: 0px;
+   
+}
+.sectionC{
+    height: 80px;
+    margin-left: 165px;
+    margin-right: 25px;
+    justify-content: flex-end;
+    background-color: yellow;
+}
+.img{
+  height:35px ;
+  width:80px
+}
+.title-bar{
+    height:35px ;
+    width: 80px;
+    background-color: violet;
+    margin-top:5px;
+    text-align:center
+}
+.icon-layout{
+    margin-top: 0.5em;
+}
+.item-layout{
+    /* margin-bottom: 100px; */
+}
